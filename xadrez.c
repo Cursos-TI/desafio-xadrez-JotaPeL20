@@ -8,7 +8,8 @@ int main() {
     printf("## Movimento da Torre 5 casas para a direita ##\n\n");
 
     // Implementação de Movimentação da Torre usando For
-    for(int Torre = 0; Torre < 5; Torre++) {
+    for(int Torre = 0; Torre < 5; Torre++) 
+    {
         printf("Direita\n"); //Imprime a direção do movimento
     } 
     
