@@ -41,8 +41,29 @@ int main() {
         Rainha++;
     } while (Rainha <= 8);
 
+    printf("\n\n");
+
+    //Mover Cavalo 2 casas para cima e 1 casa para à direita
+    printf("## Movimento do Cavalo 2 casas para cima e 1 casa para à direita ##\n\n");
+
+    // Implementação de Movimentação do Cavalo usando loop for e loop while
+    int Cavalo = 1;
+
+    while (Cavalo --)
+    {   
+        for (int Cavalo = 0; Cavalo < 2; Cavalo++) {
+        printf("Cima\n"); //Imprime "Cima" duas vezes
+       }
+
+       printf("Direita\n"); //Imprime "Direita" uma veze
+    }
+
     return 0;
 }
+    
+
+
+
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
